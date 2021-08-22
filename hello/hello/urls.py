@@ -17,9 +17,10 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path
 
-from hello import views
+from . import views
 
 urlpatterns = [
     url(r'^$', views.hello),
-    path('testdb/',views.testdb),
+    url(r'^client/$', views.client),
+    path('testdb/', views.testdb),
 ]
