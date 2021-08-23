@@ -82,6 +82,9 @@ DATABASES = {
         'PORT': 3306, # 端口
         'USER': 'root',  # 数据库用户名
         'PASSWORD': '123456', # 数据库密码
+        'OPTIONS':{
+            'timeout':20,
+        }
     }
 }
 

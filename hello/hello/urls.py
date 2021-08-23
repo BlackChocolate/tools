@@ -22,5 +22,4 @@ from . import views
 urlpatterns = [
     url(r'^$', views.hello),
     url(r'^client/$', views.client),
-    path('testdb/', views.testdb),
 ]
